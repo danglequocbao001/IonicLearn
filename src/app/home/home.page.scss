@@ -4,77 +4,6 @@ ion-app {
   margin: 0;
 
   ion-header {
-<<<<<<< HEAD
-    
-    ion-toolbar {
-      
-      ion-item {
-
-        ion-icon {
-          margin-top: -30px;
-          margin-left: -5px;
-          margin-right: 44.8px;
-          color: #77CCDE;
-          float: left;
-        }
-
-        .header-middle {
-          float: left;
-          margin-top: 46px;
-          
-          .delivery {
-            font-size: 14px;
-            color: #1A1818;
-          }
-
-          .address {
-            font-size: 16px;
-            font-weight: 700;
-            color: #1A1818;
-            
-          }
-        }
-
-        .changebtn {
-          font-size: 14px;
-          font-weight: 600;
-          color: #5EB57A;
-          margin-top: 75px;
-          margin-left: 36px;
-        }
-      }
-    }
-  }
-  ion-content {
-
-    ion-toolbar {
-
-      ion-searchbar {
-        margin-top: 24px;
-      }
-
-      ion-item {
-          font-size: 16px;
-        .hot-trend {
-          color: #5EB57A;
-        }
-        .item-2 {
-          margin-left: -15px;
-          color: #5A5A5A;
-        }
-        .item-3 {
-          margin-left: -30px;
-          color: #5A5A5A;
-        }
-        .item-4 {
-          margin-right: -52px;
-          color: #5A5A5A;
-        }
-      }
-    }
-
-    ion-grid {
-=======
     ion-toolbar {
       ion-item {
         width: 95%;
@@ -137,21 +66,14 @@ ion-app {
 
     ion-grid {
       align-items: center;
->>>>>>> 7ca2407... 2rd commit
       ion-row {
         margin-left: 10px;
         margin-bottom: -10px;
         .card {
-<<<<<<< HEAD
-          width: 140px;
-          height: 223.5px;
-          background-color: #FFF7BF;;
-=======
           width: 40%;
           background-color: #FFF7BF;
           box-shadow: none;
           border: none;
->>>>>>> 7ca2407... 2rd commit
           ion-card-header {
             background-color: #FFF7BF;
             height: 135px;
@@ -167,12 +89,6 @@ ion-app {
               color: #1A1818;
             }
             ion-card-subtitle {
-<<<<<<< HEAD
-              width: 100%;
-              font-size: 18px;
-              margin-top: 5px;
-              color: #262526;
-=======
               height: 10px;
               width: 130%;
               border-top: 3px solid #DFDFDE;
@@ -182,7 +98,6 @@ ion-app {
                 margin-left: 9px;
                 
               }
->>>>>>> 7ca2407... 2rd commit
             }
           }
         }
@@ -191,31 +106,11 @@ ion-app {
   }
 
   ion-footer {
-<<<<<<< HEAD
-    ion-toolbar {
-=======
     ion-row {
->>>>>>> 7ca2407... 2rd commit
       ion-item {
         --ion-background-color: #F0684D;
         border-radius: 12px 12px 0px 0px;
         color: #FFFFFF;
-<<<<<<< HEAD
-        width: 350px;
-        margin-left: 9px; 
-
-        .amount-of-product{
-          text-align: left;
-          font-size: 15px;
-        }
-        .cart {
-          text-align: left;
-          font-size: 15px;
-        }
-        .amount-of-payment {
-          text-align: left;
-          font-size: 15px;
-=======
         width: 95%;
         margin-left: 9px; 
         .amount-of-product{
@@ -227,7 +122,6 @@ ion-app {
         .amount-of-payment {
           font-size: 15px;
           text-align: right;
->>>>>>> 7ca2407... 2rd commit
         }
       }
     }
